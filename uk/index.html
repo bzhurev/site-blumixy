@@ -15,8 +15,7 @@
 <meta property="og:site_name" content="Blumixy">
 <meta property="og:title" content="Blumixy — Merge & Match головоломка">
 <meta property="og:description" content="Казуальна merge & match головоломка. Незабаром на iOS та Android.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://blumixy.org/uk/">
+<meta property="og:type" content="website"><meta property="og:url" content="https://blumixy.org/uk/">
 <meta property="og:image" content="https://blumixy.org/og-cover.png">
 <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:locale" content="uk_UA"><meta property="og:locale:alternate" content="en_US">
@@ -25,23 +24,31 @@
 </head><body>
 <nav class="lang" aria-label="Мова"><a href="/">EN</a><a class="active" href="/uk/">UA</a></nav>
 <header class="wrap">
-<div class="logo"><img src="/logo.svg" alt="Логотип Blumixy" width="56" height="56"><h1>Blumixy</h1></div>
+<div class="logo"><img src="/press/logo.svg" alt="Логотип Blumixy" width="56" height="56"><h1>Blumixy</h1></div>
 <p class="tagline">Казуальна merge & match головоломка для мобільних</p>
 <span class="label-soon">Незабаром</span>
-<div class="stores"><a class="store disabled" href="#" aria-disabled="true" data-analytics="appstore">Завантажити в App Store</a><a class="store disabled" href="#" aria-disabled="true" data-analytics="googleplay">Отримати в Google Play</a></div>
+<div class="stores">
+  <a class="store disabled" href="#" aria-disabled="true" onclick="window.plausible && plausible('AppStoreClick');return false;">Завантажити в App Store</a>
+  <a class="store disabled" href="#" aria-disabled="true" onclick="window.plausible && plausible('GooglePlayClick');return false;">Отримати в Google Play</a>
+</div>
 </header>
 <main class="wrap">
 <section class="card"><h2>Легко почати — хочеться повертатися</h2>
 <ul class="bullets"><li>🎯 <strong>Задовільні комбо</strong> та ланцюгові реакції</li><li>🎨 <strong>Красиві теми</strong> і чистий інтерфейс</li><li>⏱️ <strong>Швидкі сесії</strong> — ідеально «на ходу»</li><li>🤝 <strong>Чесна монетизація</strong> — грай безкоштовно, підтримай за бажанням</li></ul>
-<div class="socials"><a href="#" data-analytics="instagram">Instagram</a><a href="#" data-analytics="tiktok">TikTok</a><a href="#" data-analytics="youtube">YouTube</a></div>
+<div class="socials">
+  <a href="#" onclick="window.plausible && plausible('Instagram');return false;">Instagram</a>
+  <a href="#" onclick="window.plausible && plausible('TikTok');return false;">TikTok</a>
+  <a href="#" onclick="window.plausible && plausible('YouTube');return false;">YouTube</a>
+</div>
 </section>
 <section class="grid card" aria-hidden="true">
 <div class="tile"></div><div class="tile"></div><div class="tile"></div>
 <div class="tile"></div><div class="tile"></div><div class="tile"></div>
 <div class="tile"></div><div class="tile"></div><div class="tile"></div>
 </section></main>
-<footer class="wrap"><a class="cta" href="mailto:contact@blumixy.org" data-analytics="email">contact@blumixy.org</a>
-<div class="links"><a href="/uk/privacy.html">Політика конфіденційності</a> · <a href="/uk/terms.html">Умови користування</a> · <a href="/privacy.html" hreflang="en">Privacy (EN)</a></div>
-<small>© 2025 Blumixy. Всі права захищено.</small></footer>
-<script>document.addEventListener('click',function(e){var el=e.target.closest('[data-analytics]');if(!el||!window.plausible)return;var n=el.getAttribute('data-analytics');window.plausible('click',{props:{target:n}});});</script>
+<footer class="wrap">
+<a class="cta" href="mailto:contact@blumixy.org" onclick="window.plausible && plausible('EmailClick');">contact@blumixy.org</a>
+<div class="links"><a href="/uk/privacy.html">Політика конфіденційності</a> · <a href="/uk/terms.html">Умови користування</a> · <a href="/privacy.html" hreflang="en">Privacy (EN)</a> · <a href="/press/">Прес‑кіт</a></div>
+<small>© 2025 Blumixy. Всі права захищено.</small>
+</footer>
 </body></html>
