@@ -17,3 +17,8 @@ h1{font-size:42px;margin:0;letter-spacing:.3px}
 .tile{aspect-ratio:1/1;border-radius:12px;background:linear-gradient(135deg,#5a64ff,#9b6bff)}
 footer{opacity:.85;text-align:center;padding:24px 0}
 .cta{display:inline-block;margin-bottom:8px;padding:10px 16px;border:1px solid #5a64ff;border-radius:12px;text-decoration:none;color:#e8ebff}
+.links{margin:8px 0 0;opacity:.9}
+.links a{color:#cfd3ff;text-decoration:none;border-bottom:1px dotted rgba(207,211,255,.4)}
+.lang{position:absolute;top:16px;right:16px;display:flex;gap:6px;opacity:.9}
+.lang a{padding:6px 10px;border:1px solid rgba(255,255,255,.18);border-radius:999px;color:#e8ebff;text-decoration:none;font-size:13px}
+.lang .active{border-color:#5a64ff}
