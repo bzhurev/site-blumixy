@@ -1,0 +1,13 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial,sans-serif;background:#0f1221;color:#e8ebff;line-height:1.6}
+.wrap{width:min(960px,92vw);margin:24px auto}
+header{padding:48px 0;text-align:center}
+.logo{display:flex;gap:12px;align-items:center;justify-content:center;margin-bottom:8px}
+h1{font-size:40px;margin:0;letter-spacing:.5px}
+.tagline{opacity:.9;margin:0 0 16px 0}
+.cta{display:inline-block;padding:10px 16px;border:1px solid #5a64ff;border-radius:12px;text-decoration:none;color:#e8ebff}
+.card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px;margin:16px 0}
+.socials{display:flex;gap:12px;justify-content:center;margin-top:12px}
+.socials a{padding:8px 12px;border:1px solid rgba(255,255,255,.16);border-radius:10px;text-decoration:none;color:#e8ebff}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.tile{aspect-ratio:1/1;border-radius:12px;background:linear-gradient(135deg,#5a64ff,#9b6bff)}
+footer{opacity:.7;text-align:center;padding:24px 0}
