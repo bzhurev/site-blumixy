@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>blumixy — News</title>
+  <link href="https://blumixy.org/news/"/>
+  <updated>2025-08-13T12:00:00Z</updated>
+  <id>https://blumixy.org/news/</id>
+  <entry>
+    <title>Blumixy puzzle — coming soon to iOS & Android</title>
+    <link href="https://blumixy.org/news/blumixy-puzzle-coming-soon.html" />
+    <id>https://blumixy.org/news/blumixy-puzzle-coming-soon.html</id>
+    <updated>2025-08-13T12:00:00Z</updated>
+    <summary>Our first game is approaching release. Follow for updates.</summary>
+  </entry>
+</feed>

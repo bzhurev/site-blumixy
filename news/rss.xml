@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>blumixy — News</title>
+  <link>https://blumixy.org/news/</link>
+  <description>Company updates and releases</description>
+  <lastBuildDate>Wed, 13 Aug 2025 12:00:00 +0000</lastBuildDate>
+  <item>
+    <title>Blumixy puzzle — coming soon to iOS & Android</title>
+    <link>https://blumixy.org/news/blumixy-puzzle-coming-soon.html</link>
+    <guid isPermaLink="true">https://blumixy.org/news/blumixy-puzzle-coming-soon.html</guid>
+    <pubDate>Wed, 13 Aug 2025 12:00:00 +0000</pubDate>
+    <description>Our first game is approaching release. Follow for updates.</description>
+  </item>
+</channel>
+</rss>
