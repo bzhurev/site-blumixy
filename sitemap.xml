@@ -1,9 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://blumixy.org/</loc></url>
-  <url><loc>https://blumixy.org/privacy.html</loc></url>
-  <url><loc>https://blumixy.org/terms.html</loc></url>
-  <url><loc>https://blumixy.org/uk/</loc></url>
-  <url><loc>https://blumixy.org/uk/privacy.html</loc></url>
-  <url><loc>https://blumixy.org/uk/terms.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://blumixy.org/</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>1.0</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/"/>
+</url>
+<url>
+<loc>https://blumixy.org/uk/</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://blumixy.org/about.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.8</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/about.html"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/about.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/about.html"/>
+</url>
+<url>
+<loc>https://blumixy.org/uk/about.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://blumixy.org/services.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.8</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/services.html"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/services.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/services.html"/>
+</url>
+<url>
+<loc>https://blumixy.org/uk/services.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://blumixy.org/news/</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.6</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/news/"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/news/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/news/"/>
+</url>
+<url>
+<loc>https://blumixy.org/uk/news/</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://blumixy.org/news/blumixy-puzzle-coming-soon.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.7</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/news/blumixy-puzzle-coming-soon.html"/>
+<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/news/blumixy-puzzle-coming-soon.html"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/news/blumixy-puzzle-coming-soon.html"/>
+</url>
+<url>
+<loc>https://blumixy.org/uk/news/blumixy-puzzle-coming-soon.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://blumixy.org/press/</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://blumixy.org/subscribe.html</loc>
+<lastmod>2025-08-13</lastmod>
+<priority>0.3</priority>
+</url>
 </urlset>
