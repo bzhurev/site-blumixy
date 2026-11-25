@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DOMAIN = "https://blumixy.store"
 EMAIL = "contact@blumixy.org"          # change here if the mailbox moves
 FORM_ENDPOINT = ""                     # e.g. "https://formspree.io/f/abcd1234"; empty = mailto fallback
+BING_VERIFY = "66F88F1686AAF6DE5A6E77250C82DC7F"  # Bing Webmaster Tools meta tag
 CF_BEACON = "a2aeabb7cbf24a51815b19be0e10a6eb"  # Cloudflare Web Analytics token
 BUILD_DATE = date(2026, 11, 25)
 SOCIAL = [
@@ -220,6 +221,7 @@ def page(lang: str, key: str, path: str, title: str, desc: str, body: str,
     beacon = (f'<script defer src="https://static.cloudflareinsights.com/beacon.min.js" '
               f'data-cf-beacon=\'{{"token":"{CF_BEACON}"}}\'></script>') if CF_BEACON else ""
     full_title = title if key == "home" else f"{title} — blumixy"
+    verify = f'\n<meta name="msvalidate.01" content="{BING_VERIFY}">' if BING_VERIFY and key == "home" else ""
 
     foot_company = "".join(f'<li><a href="{url(lang, k)}">{e(l)}</a></li>' for k, l in t["nav"])
     foot_company += f'<li><a href="{url(lang, "subscribe")}">{e(t["subscribe"])}</a></li>'
@@ -237,7 +239,7 @@ def page(lang: str, key: str, path: str, title: str, desc: str, body: str,
 <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon-180x180.png" sizes="180x180">
 <link rel="alternate" type="application/rss+xml" title="blumixy — News" href="{DOMAIN}/news/rss.xml">
-<meta name="theme-color" content="#f6f5ff">
+<meta name="theme-color" content="#f6f5ff">{verify}
 <meta property="og:site_name" content="blumixy">
 <meta property="og:title" content="{e(full_title)}">
 <meta property="og:description" content="{e(desc)}">
