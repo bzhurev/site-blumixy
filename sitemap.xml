@@ -1,79 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
-<loc>https://blumixy.org/</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>1.0</priority>
-<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/"/>
-<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/"/>
+  <loc>https://blumixy.store/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/"/>
 </url>
 <url>
-<loc>https://blumixy.org/uk/</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>1.0</priority>
+  <loc>https://blumixy.store/uk/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/"/>
 </url>
 <url>
-<loc>https://blumixy.org/about.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.8</priority>
-<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/about.html"/>
-<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/about.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/about.html"/>
+  <loc>https://blumixy.store/about.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/about.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/about.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/about.html"/>
 </url>
 <url>
-<loc>https://blumixy.org/uk/about.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.8</priority>
+  <loc>https://blumixy.store/uk/about.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/about.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/about.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/about.html"/>
 </url>
 <url>
-<loc>https://blumixy.org/services.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.8</priority>
-<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/services.html"/>
-<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/services.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/services.html"/>
+  <loc>https://blumixy.store/services.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/services.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/services.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/services.html"/>
 </url>
 <url>
-<loc>https://blumixy.org/uk/services.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.8</priority>
+  <loc>https://blumixy.store/uk/services.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/services.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/services.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/services.html"/>
 </url>
 <url>
-<loc>https://blumixy.org/news/</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.6</priority>
-<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/news/"/>
-<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/news/"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/news/"/>
+  <loc>https://blumixy.store/news/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/news/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/news/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/news/"/>
 </url>
 <url>
-<loc>https://blumixy.org/uk/news/</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.6</priority>
+  <loc>https://blumixy.store/uk/news/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/news/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/news/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/news/"/>
 </url>
 <url>
-<loc>https://blumixy.org/news/blumixy-puzzle-coming-soon.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.7</priority>
-<xhtml:link rel="alternate" hreflang="en" href="https://blumixy.org/news/blumixy-puzzle-coming-soon.html"/>
-<xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.org/uk/news/blumixy-puzzle-coming-soon.html"/>
-<xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.org/news/blumixy-puzzle-coming-soon.html"/>
+  <loc>https://blumixy.store/press/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/press/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/press/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/press/"/>
 </url>
 <url>
-<loc>https://blumixy.org/uk/news/blumixy-puzzle-coming-soon.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.7</priority>
+  <loc>https://blumixy.store/uk/press/</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/press/"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/press/"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/press/"/>
 </url>
 <url>
-<loc>https://blumixy.org/press/</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.5</priority>
+  <loc>https://blumixy.store/subscribe.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/subscribe.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/subscribe.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/subscribe.html"/>
 </url>
 <url>
-<loc>https://blumixy.org/subscribe.html</loc>
-<lastmod>2025-08-13</lastmod>
-<priority>0.3</priority>
+  <loc>https://blumixy.store/uk/subscribe.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/subscribe.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/subscribe.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/subscribe.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/privacy.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/privacy.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/privacy.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/privacy.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/uk/privacy.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/privacy.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/privacy.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/privacy.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/terms.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/terms.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/terms.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/terms.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/uk/terms.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/terms.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/terms.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/terms.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/news/blumixy-puzzle-coming-soon.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/news/blumixy-puzzle-coming-soon.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/news/blumixy-puzzle-coming-soon.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/news/blumixy-puzzle-coming-soon.html"/>
+</url>
+<url>
+  <loc>https://blumixy.store/uk/news/blumixy-puzzle-coming-soon.html</loc>
+  <lastmod>2026-11-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://blumixy.store/news/blumixy-puzzle-coming-soon.html"/>
+  <xhtml:link rel="alternate" hreflang="uk" href="https://blumixy.store/uk/news/blumixy-puzzle-coming-soon.html"/>
+  <xhtml:link rel="alternate" hreflang="x-default" href="https://blumixy.store/news/blumixy-puzzle-coming-soon.html"/>
 </url>
 </urlset>
