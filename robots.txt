@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://blumixy.org/sitemap.xml
+
+Sitemap: https://blumixy.store/sitemap.xml
