@@ -5,11 +5,11 @@
   "feed_url": "https://blumixy.store/news/index.json",
   "items": [
     {
-      "id": "https://blumixy.store/news/blumixy-puzzle-coming-soon.html",
-      "url": "https://blumixy.store/news/blumixy-puzzle-coming-soon.html",
-      "title": "Blumixy Puzzle is coming to iOS and Android",
-      "content_text": "Our first game is approaching release. Follow along for devlogs and playtest invites.",
-      "date_published": "2025-08-13T12:00:00Z"
+      "id": "https://blumixy.store/news/retsepty-launch.html",
+      "url": "https://blumixy.store/news/retsepty-launch.html",
+      "title": "Meet Retsepty: a recipe book that fills itself",
+      "content_text": "Our recipe app is out on Android. Send a link or snap a cookbook page, and the recipe is saved with ingredients, steps and nutrition.",
+      "date_published": "2026-11-27T12:00:00Z"
     }
   ]
 }
