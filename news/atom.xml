@@ -3,14 +3,14 @@
   <title>blumixy — News</title>
   <link href="https://blumixy.store/news/"/>
   <link href="https://blumixy.store/news/atom.xml" rel="self"/>
-  <updated>2025-08-13T12:00:00Z</updated>
+  <updated>2026-11-27T12:00:00Z</updated>
   <id>https://blumixy.store/news/</id>
   <author><name>blumixy</name></author>
   <entry>
-    <title>Blumixy Puzzle is coming to iOS and Android</title>
-    <link href="https://blumixy.store/news/blumixy-puzzle-coming-soon.html"/>
-    <id>https://blumixy.store/news/blumixy-puzzle-coming-soon.html</id>
-    <updated>2025-08-13T12:00:00Z</updated>
-    <summary>Our first game is approaching release. Follow along for devlogs and playtest invites.</summary>
+    <title>Meet Retsepty: a recipe book that fills itself</title>
+    <link href="https://blumixy.store/news/retsepty-launch.html"/>
+    <id>https://blumixy.store/news/retsepty-launch.html</id>
+    <updated>2026-11-27T12:00:00Z</updated>
+    <summary>Our recipe app is out on Android. Send a link or snap a cookbook page, and the recipe is saved with ingredients, steps and nutrition.</summary>
   </entry>
 </feed>

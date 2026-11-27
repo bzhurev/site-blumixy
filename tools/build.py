@@ -41,7 +41,7 @@ T = {
         "skip": "Skip to content",
         "contact_us": "Email us",
         "see_services": "See services",
-        "read_more": "Read the announcement",
+        "read_more": "Read the release",
         "foot_studio": "Product studio for AI software, integrations and casual games.",
         "foot_company": "Company", "foot_follow": "Follow", "foot_legal": "Legal",
         "privacy": "Privacy", "terms": "Terms", "subscribe": "Get updates",
@@ -57,7 +57,7 @@ T = {
         "skip": "Перейти до змісту",
         "contact_us": "Написати нам",
         "see_services": "Наші послуги",
-        "read_more": "Читати анонс",
+        "read_more": "Читати реліз",
         "foot_studio": "Продуктова студія: ПЗ зі ШІ, інтеграції та казуальні ігри.",
         "foot_company": "Студія", "foot_follow": "Соцмережі", "foot_legal": "Документи",
         "privacy": "Конфіденційність", "terms": "Умови", "subscribe": "Отримувати новини",
@@ -124,24 +124,56 @@ STEPS = {
 
 POSTS = [
     {
-        "slug": "blumixy-puzzle-coming-soon",
-        "date": date(2025, 8, 13),
+        "slug": "retsepty-launch",
+        "date": date(2026, 11, 27),
+        "og": "/news/retsepty-og.png",
+        "hero": True,
         "en": {
-            "title": "Blumixy Puzzle is coming to iOS and Android",
-            "summary": "Our first game is approaching release. Follow along for devlogs and playtest invites.",
-            "lead": "A cozy merge-and-match game with satisfying combos and a clean interface. Our first title is nearing release on both platforms.",
-            "body": [
-                "We’ve been quietly shaping our first game: a minimalist merge-and-match built for short, feel-good sessions. Match tiles, merge them into bigger ones and chase the combo that clears the board.",
-                "We’ll share development updates, theme previews and playtest invitations here and on our social channels.",
+            "title": "Meet Retsepty: a recipe book that fills itself",
+            "summary": "Our recipe app is out on Android. Send a link or snap a cookbook page, and the recipe is saved with ingredients, steps and nutrition.",
+            "lead": "You saved a hundred recipe videos and still can’t find the one you need. Retsepty turns a link, a screenshot or a photo of a cookbook page into a proper recipe, ready to cook.",
+            "blocks": [
+                ("h2", "How it works"),
+                ("steps", [
+                    ("Send it", "Share a TikTok, Instagram Reels or YouTube video straight from the app, paste a website link, or photograph up to six cookbook pages."),
+                    ("It becomes a recipe", "Retsepty pulls out the ingredients, the steps and calories with protein, fat and carbs per serving."),
+                    ("Cook", "Open cooking mode and follow big, readable steps with timers."),
+                ]),
+                ("h2", "What’s inside"),
+                ("features", [
+                    ("ai", "Import from anywhere", "Links, the Share button in TikTok, Instagram and YouTube, photos or plain text."),
+                    ("software", "Servings that recalculate", "Change the number of servings and every amount follows. Nutrition is shown per serving."),
+                    ("ux", "A smart shopping list", "The same product from different recipes is added up into one line. Salt and water stay off the list."),
+                    ("games", "Cooking mode", "Large steps, several timers running at once, and the screen stays on while you cook."),
+                    ("ai", "One book for the family", "Share your recipes and shopping list with the people you cook for using a six-digit code."),
+                    ("software", "Find it fast", "Search by dish name or by what’s in your fridge, and keep favourites a tap away."),
+                ]),
+                ("h2", "Available now"),
+                ("p", "Retsepty is available for Android in early access: sign-up works with an invitation code. An iOS version will follow."),
             ],
         },
         "uk": {
-            "title": "Blumixy Puzzle незабаром на iOS та Android",
-            "summary": "Наша перша гра наближається до релізу. Стежте за девлогами та запрошеннями на плейтести.",
-            "lead": "Затишна merge-and-match гра з приємними комбо та чистим інтерфейсом. Наш перший тайтл готується до релізу на обох платформах.",
-            "body": [
-                "Ми тихо шліфували нашу першу гру: мінімалістичну merge-and-match для коротких приємних сесій. З’єднуйте плитки, зливайте їх у більші та шукайте комбо, що очищує поле.",
-                "Тут і в соцмережах ділитимемося девлогами, прев’ю тем та запрошеннями на плейтести.",
+            "title": "Рецепти: книга рецептів, яка наповнюється сама",
+            "summary": "Наш застосунок рецептів вийшов на Android. Надішліть посилання або сфотографуйте сторінку книги, і рецепт збережеться з інгредієнтами, кроками та КБЖВ.",
+            "lead": "Ви зберегли сотню відео з рецептами і все одно не можете знайти потрібний. «Рецепти» перетворюють посилання, скриншот чи фото сторінки кулінарної книги на повноцінний рецепт, з яким можна одразу готувати.",
+            "blocks": [
+                ("h2", "Як це працює"),
+                ("steps", [
+                    ("Надішліть", "Поділіться відео з TikTok, Instagram Reels чи YouTube прямо в застосунок, вставте посилання на сайт або сфотографуйте до шести сторінок кулінарної книги."),
+                    ("Отримайте рецепт", "«Рецепти» виділять інгредієнти, кроки та КБЖВ на одну порцію."),
+                    ("Готуйте", "Увімкніть режим готування і йдіть за великими зрозумілими кроками з таймерами."),
+                ]),
+                ("h2", "Що вміє застосунок"),
+                ("features", [
+                    ("ai", "Імпорт звідусіль", "Посилання, кнопка «Поділитися» в TikTok, Instagram і YouTube, фото або звичайний текст."),
+                    ("software", "Порції з перерахунком", "Змініть кількість порцій, і всі інгредієнти перерахуються. КБЖВ показано на порцію."),
+                    ("ux", "Розумний список покупок", "Однакові продукти з різних рецептів сумуються в один рядок. Сіль і вода до списку не потрапляють."),
+                    ("games", "Режим готування", "Великі кроки, кілька таймерів одночасно, і екран не гасне, поки ви готуєте."),
+                    ("ai", "Спільна книга для сім’ї", "Діліться рецептами й списком покупок із тими, для кого готуєте, за шестизначним кодом."),
+                    ("software", "Швидкий пошук", "Шукайте за назвою страви або за продуктами, що є в холодильнику, а улюблене тримайте в обраному."),
+                ]),
+                ("h2", "Уже доступно"),
+                ("p", "«Рецепти» доступні для Android у ранньому доступі: реєстрація за кодом запрошення. Версія для iOS з’явиться згодом."),
             ],
         },
     },
@@ -181,6 +213,35 @@ def mark_svg(size: int = 30) -> str:
 def glyph(kind: str) -> str:
     cells = "".join(f'<i class="{c}"></i>' for c in GLYPH[kind])
     return f'<div class="glyph" aria-hidden="true">{cells}</div>'
+
+
+APP_CARD = {
+    "en": ("TikTok link", "Cookbook photo", "Creamy mushroom pasta", ["400 g pasta", "300 g mushrooms", "200 ml cream"], "4 servings · 610 kcal"),
+    "uk": ("Посилання з TikTok", "Фото з книги", "Паста з грибами у вершках", ["400 г пасти", "300 г печериць", "200 мл вершків"], "4 порції · 610 ккал"),
+}
+
+
+def app_card(lang: str) -> str:
+    """Small illustration for the home spotlight: inputs merge into one recipe card."""
+    a, b, title, items, meta = APP_CARD[lang]
+    li = "".join(f"<li>{e(i)}</li>" for i in items)
+    return (f'<div class="app-demo" aria-hidden="true"><div class="src"><span>{e(a)}</span><span>{e(b)}</span></div>'
+            f'<div class="card"><i class="core"></i><b>{e(title)}</b><ul>{li}</ul><small>{e(meta)}</small></div></div>')
+
+
+def render_blocks(blocks: list) -> str:
+    out = ""
+    for kind, val in blocks:
+        if kind == "h2":
+            out += f"<h2>{e(val)}</h2>"
+        elif kind == "p":
+            out += f"<p>{e(val)}</p>"
+        elif kind == "steps":
+            out += '<ol class="steps post-steps">' + "".join(f"<li><h3>{e(a)}</h3><p>{e(b)}</p></li>" for a, b in val) + "</ol>"
+        elif kind == "features":
+            out += '<div class="features">' + "".join(
+                f"<div>{glyph(g)}<h3>{e(t)}</h3><p>{e(d)}</p></div>" for g, t, d in val) + "</div>"
+    return out
 
 
 def social_list() -> str:
@@ -305,8 +366,8 @@ def home(lang: str) -> str:
             games_t="Games", games_p="Cozy casual titles with clean UI and satisfying mechanics. Our first one is almost out.",
             games_li=["Blumixy Puzzle, a merge-and-match for iOS and Android", "Devlogs and playtests in the open"],
             how_h="How a project runs", how_p="Short cycles with a measurable result at the end of each one.",
-            spot_when="Coming soon", spot_h="Blumixy Puzzle",
-            spot_p="Match tiles, merge them into bigger ones and chase the combo that clears the board. Short, feel-good sessions on iOS and Android.",
+            spot_when="Out now on Android", spot_h="Retsepty",
+            spot_p="Our recipe book that fills itself. Send a video link or a photo of a cookbook page and get a recipe with ingredients, steps and nutrition.",
             contact_h="Have a project in mind?",
             contact_p="Tell us what you want to automate or build.",
             board_label="Animated blumixy tiles merging into the logo",
@@ -321,8 +382,8 @@ def home(lang: str) -> str:
             games_t="Ігри", games_p="Затишні казуальні ігри з чистим інтерфейсом і приємними механіками. Перша майже готова.",
             games_li=["Blumixy Puzzle — merge-and-match для iOS та Android", "Відкриті девлоги та плейтести"],
             how_h="Як іде проєкт", how_p="Короткі цикли з вимірюваним результатом наприкінці кожного.",
-            spot_when="Незабаром", spot_h="Blumixy Puzzle",
-            spot_p="З’єднуйте плитки, зливайте їх у більші та шукайте комбо, що очищує поле. Короткі приємні сесії на iOS та Android.",
+            spot_when="Уже на Android", spot_h="Рецепти",
+            spot_p="Наша книга рецептів, яка наповнюється сама. Надішліть посилання на відео чи фото сторінки книги й отримайте рецепт з інгредієнтами, кроками та КБЖВ.",
             contact_h="Маєте задачу?",
             contact_p="Розкажіть, що хочете автоматизувати чи створити.",
             board_label="Анімація: плитки blumixy зливаються в логотип",
@@ -400,7 +461,7 @@ def home(lang: str) -> str:
         <p>{e(c["spot_p"])}</p>
         <div class="actions"><a class="btn on-dark" href="{url(lang, post['slug'])}">{e(t["read_more"])}</a></div>
       </div>
-      <div class="chain" aria-hidden="true"><span class="t">2</span><span class="plus">+</span><span class="t">2</span><span class="plus">=</span><span class="t c">4</span></div>
+      {app_card(lang)}
     </div>
   </div>
 </section>
@@ -515,28 +576,28 @@ def news_post(lang: str, p: dict) -> str:
     path = url(lang, p["slug"])
     ld = {"@context": "https://schema.org", "@type": "NewsArticle", "headline": c["title"],
           "datePublished": p["date"].isoformat(), "dateModified": p["date"].isoformat(), "inLanguage": lang,
-          "image": f"{DOMAIN}/news-og.png",
+          "image": f"{DOMAIN}{p.get('og', '/news-og.png')}",
           "author": {"@type": "Organization", "name": "blumixy"},
           "publisher": {"@type": "Organization", "name": "blumixy",
                         "logo": {"@type": "ImageObject", "url": f"{DOMAIN}/press/logo-1024.png"}},
           "mainEntityOfPage": f"{DOMAIN}{path}"}
-    paras = "".join(f"<p>{e(x)}</p>" for x in c["body"])
+    paras = render_blocks(c["blocks"]) if "blocks" in c else "".join(f"<p>{e(x)}</p>" for x in c["body"])
     body = f"""
 <article>
-<section class="page-head"><div class="wrap prose">
+<section class="page-head"><div class="wrap{' post-hero' if p.get('hero') else ' prose'}"><div>
   <a class="crumb" href="{url(lang, 'news')}">{e(T[lang]["all_news"])}</a>
   <time class="article-meta" datetime="{p["date"].isoformat()}">{fmt_date(lang, p["date"])}</time>
   <h1>{e(c["title"])}</h1>
   <p class="lead">{e(c["lead"])}</p>
-</div></section>
-<div class="wrap prose">
+</div>{app_card(lang) if p.get('hero') else ''}</div></section>
+<div class="wrap"><div class="prose post-body">
   {paras}
   {social_list()}
-</div>
+</div></div>
 </article>
 """
     return page(lang, "news", path, c["title"], c["summary"], body,
-                url("uk" if lang == "en" else "en", p["slug"]), og_image="/news-og.png", og_type="article", extra_ld=ld)
+                url("uk" if lang == "en" else "en", p["slug"]), og_image=p.get("og", "/news-og.png"), og_type="article", extra_ld=ld)
 
 
 def press(lang: str) -> str:

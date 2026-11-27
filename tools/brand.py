@@ -90,10 +90,28 @@ PIECES = {
     "news-og.png": (1200, 630, f"""
 <div style="position:absolute;left:84px;top:96px">
   <div class="row" style="--gap:18px"><div style="width:60px">{MARK_SVG}</div><div class="word" style="--fs:44px">blumixy news</div></div>
-  <div class="word" style="--fs:58px;margin-top:84px;max-width:620px;line-height:1.1;letter-spacing:-.03em">Blumixy Puzzle is coming soon</div>
-  <div class="tag" style="--ts:26px;margin-top:28px">iOS and Android</div>
+  <div class="word" style="--fs:58px;margin-top:84px;max-width:620px;line-height:1.1;letter-spacing:-.03em">Releases, updates and devlogs</div>
+  <div class="tag" style="--ts:26px;margin-top:28px">blumixy.store/news</div>
 </div>
 <div class="tiles" style="--t:92px;right:72px;top:118px">{tiles(['','v','','','v','v','s','','','s','s','v','','','v',''])}</div>"""),
+    "news/retsepty-og.png": (1200, 630, f"""
+<div style="position:absolute;inset:0;background:#1b1a3a"></div>
+<div style="position:absolute;left:84px;top:92px;color:#fff">
+  <div class="row" style="--gap:16px"><div style="width:52px">{MARK_SVG}</div><div class="word" style="--fs:34px;color:#fff">blumixy</div></div>
+  <div style="display:inline-block;margin-top:64px;padding:8px 18px;border-radius:999px;background:#ffc94d;color:#1b1a3a;font:600 24px O">Out now on Android</div>
+  <div class="word" style="--fs:96px;margin-top:26px;color:#fff">Retsepty</div>
+  <div class="tag" style="--ts:30px;margin-top:22px;color:#c9c7ee;max-width:560px">A recipe book that fills itself</div>
+</div>
+<div style="position:absolute;right:84px;top:118px;width:390px;background:#fff;border-radius:30px;padding:34px 34px 28px;color:#1b1a3a">
+  <i style="position:absolute;right:28px;top:28px;width:38px;height:38px;border-radius:11px;background:#ffc94d"></i>
+  <div class="word" style="--fs:30px;line-height:1.2;letter-spacing:-.02em;padding-right:52px">Creamy mushroom pasta</div>
+  <div style="margin-top:24px;display:grid;gap:14px;font:500 24px O">
+    <div style="display:flex;gap:14px;align-items:center"><i style="width:14px;height:14px;border-radius:4px;background:linear-gradient(145deg,#5a64ff,#9b6bff)"></i>400 g pasta</div>
+    <div style="display:flex;gap:14px;align-items:center"><i style="width:14px;height:14px;border-radius:4px;background:linear-gradient(145deg,#5a64ff,#9b6bff)"></i>300 g mushrooms</div>
+    <div style="display:flex;gap:14px;align-items:center"><i style="width:14px;height:14px;border-radius:4px;background:linear-gradient(145deg,#5a64ff,#9b6bff)"></i>200 ml cream</div>
+  </div>
+  <div class="tag" style="--ts:21px;margin-top:24px">4 servings, 610 kcal each</div>
+</div>"""),
     "press/twitter-header-1500x500.png": (1500, 500, f"""
 <div class="tiles" style="--t:70px;right:90px;top:70px">{tiles(['v','','v','','','s','','v','v','','v','s','','v','',''])}</div>
 <div style="position:absolute;left:520px;bottom:80px" class="tag"><span style="--ts:30px;font-size:30px">AI software, integrations and games</span></div>"""),
