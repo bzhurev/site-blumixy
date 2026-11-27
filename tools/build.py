@@ -41,7 +41,7 @@ T = {
         "skip": "Skip to content",
         "contact_us": "Email us",
         "see_services": "See services",
-        "read_more": "Read the release",
+        "read_more": "Learn more",
         "foot_studio": "Product studio for AI software, integrations and casual games.",
         "foot_company": "Company", "foot_follow": "Follow", "foot_legal": "Legal",
         "privacy": "Privacy", "terms": "Terms", "subscribe": "Get updates",
@@ -57,7 +57,7 @@ T = {
         "skip": "Перейти до змісту",
         "contact_us": "Написати нам",
         "see_services": "Наші послуги",
-        "read_more": "Читати реліз",
+        "read_more": "Детальніше",
         "foot_studio": "Продуктова студія: ПЗ зі ШІ, інтеграції та казуальні ігри.",
         "foot_company": "Студія", "foot_follow": "Соцмережі", "foot_legal": "Документи",
         "privacy": "Конфіденційність", "terms": "Умови", "subscribe": "Отримувати новини",
@@ -128,52 +128,87 @@ POSTS = [
         "date": date(2026, 11, 27),
         "og": "/news/retsepty-og.png",
         "hero": True,
+        "app": {"icon": "/assets/apps/retsepty-icon-512.png",
+                "en": ("Retsepty", "Coming soon to Android"),
+                "uk": ("Рецепти", "Незабаром на Android")},
         "en": {
-            "title": "Meet Retsepty: a recipe book that fills itself",
-            "summary": "Our recipe app is out on Android. Send a link or snap a cookbook page, and the recipe is saved with ingredients, steps and nutrition.",
-            "lead": "You saved a hundred recipe videos and still can’t find the one you need. Retsepty turns a link, a screenshot or a photo of a cookbook page into a proper recipe, ready to cook.",
+            "title": "Retsepty: your recipe book that fills itself",
+            "summary": "Recipes from TikTok, Instagram and photos in one book, with a shopping list that writes itself. Coming soon to Android.",
+            "lead": "Recipes from TikTok, Instagram and photos in one book. The shopping list writes itself.",
             "blocks": [
+                ("p", "Saw a tasty recipe on TikTok or Reels? Tap Share, pick Retsepty, and in a few seconds it’s in your book with ingredients, step-by-step instructions and nutrition. No screenshots, no notes, no hunting for “that video”."),
                 ("h2", "How it works"),
                 ("steps", [
-                    ("Send it", "Share a TikTok, Instagram Reels or YouTube video straight from the app, paste a website link, or photograph up to six cookbook pages."),
-                    ("It becomes a recipe", "Retsepty pulls out the ingredients, the steps and calories with protein, fat and carbs per serving."),
-                    ("Cook", "Open cooking mode and follow big, readable steps with timers."),
+                    ("Share", "From TikTok, Instagram, YouTube or any cooking site, or take a photo of a cookbook page."),
+                    ("Get a recipe", "AI listens to the video and reads the caption, then lays out ingredients, steps and nutrition."),
+                    ("Cook", "Add everything to your shopping list in one tap and follow the steps in cooking mode."),
                 ]),
-                ("h2", "What’s inside"),
-                ("features", [
-                    ("ai", "Import from anywhere", "Links, the Share button in TikTok, Instagram and YouTube, photos or plain text."),
-                    ("software", "Servings that recalculate", "Change the number of servings and every amount follows. Nutrition is shown per serving."),
-                    ("ux", "A smart shopping list", "The same product from different recipes is added up into one line. Salt and water stay off the list."),
-                    ("games", "Cooking mode", "Large steps, several timers running at once, and the screen stays on while you cook."),
-                    ("ai", "One book for the family", "Share your recipes and shopping list with the people you cook for using a six-digit code."),
-                    ("software", "Find it fast", "Search by dish name or by what’s in your fridge, and keep favourites a tap away."),
+                ("h2", "Everything in one app"),
+                ("featurelist", [
+                    ("ai", "Save recipes from anywhere", [
+                        "TikTok, Instagram Reels, YouTube: AI listens to the video and reads the caption",
+                        "Any cooking website",
+                        "A photo of a cookbook page or grandma’s handwritten recipe, up to 6 pages per recipe",
+                        "A photo of a finished dish: the app recognises it and suggests a classic recipe",
+                        "Plain text from your notes or a messenger"]),
+                    ("software", "A recipe card that works for you", [
+                        "Tap − or + to change servings, and every ingredient recalculates",
+                        "Calories, protein, fat and carbs per serving",
+                        "Favourites and search by name or ingredient: “potato” finds everything with potatoes"]),
+                    ("ux", "A smart shopping list", [
+                        "Add all ingredients in one tap",
+                        "The same product from several recipes adds up into one line",
+                        "Each item shows which dish it’s for",
+                        "Salt, water and other things you already have don’t clutter the list"]),
+                    ("games", "Cooking mode", [
+                        "Big steps that are easy to read from the stove",
+                        "A timer for each step, and several can run at once",
+                        "The screen stays on while you cook"]),
+                    ("ai", "Family", [
+                        "Share your family code to get one recipe book and one shopping list for everyone",
+                        "One adds a recipe and the other sees it; one buys the milk and the other sees it’s already in the basket"]),
                 ]),
-                ("h2", "Available now"),
-                ("p", "Retsepty is available for Android in early access: sign-up works with an invitation code. An iOS version will follow."),
+                ("cta", ("Be the first to try it", "Retsepty is coming soon to Android, with iOS to follow. Follow us to hear about the launch and early access first.")),
             ],
         },
         "uk": {
-            "title": "Рецепти: книга рецептів, яка наповнюється сама",
-            "summary": "Наш застосунок рецептів вийшов на Android. Надішліть посилання або сфотографуйте сторінку книги, і рецепт збережеться з інгредієнтами, кроками та КБЖВ.",
-            "lead": "Ви зберегли сотню відео з рецептами і все одно не можете знайти потрібний. «Рецепти» перетворюють посилання, скриншот чи фото сторінки кулінарної книги на повноцінний рецепт, з яким можна одразу готувати.",
+            "title": "Рецепти: ваша книга рецептів, яка наповнюється сама",
+            "summary": "Рецепти з TikTok, Instagram і фото в одній книзі, а список покупок складеться сам. Незабаром на Android.",
+            "lead": "Рецепти з TikTok, Instagram і фото в одній книзі. Список покупок складеться сам.",
             "blocks": [
+                ("p", "Побачили смачний рецепт у TikTok чи Reels? Натисніть «Поділитися», оберіть «Рецепти», і за кілька секунд він уже у вашій книзі: з інгредієнтами, покроковими інструкціями та КБЖВ. Без скриншотів, нотаток і пошуку «того відео»."),
                 ("h2", "Як це працює"),
                 ("steps", [
-                    ("Надішліть", "Поділіться відео з TikTok, Instagram Reels чи YouTube прямо в застосунок, вставте посилання на сайт або сфотографуйте до шести сторінок кулінарної книги."),
-                    ("Отримайте рецепт", "«Рецепти» виділять інгредієнти, кроки та КБЖВ на одну порцію."),
-                    ("Готуйте", "Увімкніть режим готування і йдіть за великими зрозумілими кроками з таймерами."),
+                    ("Поділіться", "З TikTok, Instagram, YouTube чи будь-якого кулінарного сайту, або сфотографуйте сторінку книги."),
+                    ("Отримайте рецепт", "ШІ слухає відео й читає опис, а потім розкладає все на інгредієнти, кроки та КБЖВ."),
+                    ("Готуйте", "Додайте все до списку покупок одним натиском і готуйте в режимі готування."),
                 ]),
-                ("h2", "Що вміє застосунок"),
-                ("features", [
-                    ("ai", "Імпорт звідусіль", "Посилання, кнопка «Поділитися» в TikTok, Instagram і YouTube, фото або звичайний текст."),
-                    ("software", "Порції з перерахунком", "Змініть кількість порцій, і всі інгредієнти перерахуються. КБЖВ показано на порцію."),
-                    ("ux", "Розумний список покупок", "Однакові продукти з різних рецептів сумуються в один рядок. Сіль і вода до списку не потрапляють."),
-                    ("games", "Режим готування", "Великі кроки, кілька таймерів одночасно, і екран не гасне, поки ви готуєте."),
-                    ("ai", "Спільна книга для сім’ї", "Діліться рецептами й списком покупок із тими, для кого готуєте, за шестизначним кодом."),
-                    ("software", "Швидкий пошук", "Шукайте за назвою страви або за продуктами, що є в холодильнику, а улюблене тримайте в обраному."),
+                ("h2", "Усе в одному застосунку"),
+                ("featurelist", [
+                    ("ai", "Збереження рецептів звідусіль", [
+                        "TikTok, Instagram Reels, YouTube: ШІ слухає відео й читає опис",
+                        "Будь-які кулінарні сайти",
+                        "Фото сторінки з кулінарної книги чи бабусиного рукописного рецепта (до 6 сторінок одного рецепта)",
+                        "Фото готової страви: застосунок упізнає її й запропонує класичний рецепт",
+                        "Просто текст з нотаток чи месенджера"]),
+                    ("software", "Зручна картка рецепта", [
+                        "Кількість порцій −/+, і всі інгредієнти перераховуються автоматично",
+                        "Калорії, білки, жири й вуглеводи на порцію",
+                        "Обране й пошук за назвою або продуктом: «картопля» знайде все з картоплею"]),
+                    ("ux", "Розумний список покупок", [
+                        "Інгредієнти додаються одним натиском",
+                        "Однакові продукти з кількох рецептів сумуються в один рядок",
+                        "Біля кожного продукту видно, для якої він страви",
+                        "Сіль, вода та інше, що зазвичай є вдома, не захаращують список"]),
+                    ("games", "Режим готування", [
+                        "Великі кроки, які зручно читати біля плити",
+                        "Таймери для кожного етапу, кілька можуть працювати одночасно",
+                        "Екран не гасне, поки ви готуєте"]),
+                    ("ai", "Сім’я", [
+                        "Поділіться кодом сім’ї, і у вас буде спільна книга рецептів і один список покупок на всіх",
+                        "Один додав рецепт, інший уже бачить його; один купив молоко, інший бачить, що воно вже в кошику"]),
                 ]),
-                ("h2", "Вже доступно"),
-                ("p", "«Рецепти» доступні для Android у ранньому доступі: реєстрація за кодом запрошення. Версія для iOS з’явиться згодом."),
+                ("cta", ("Спробуйте першими", "«Рецепти» незабаром вийдуть на Android, а згодом і на iOS. Стежте за нами, щоб першими дізнатися про запуск і ранній доступ.")),
             ],
         },
     },
@@ -229,6 +264,15 @@ def app_card(lang: str) -> str:
             f'<div class="card"><i class="core"></i><b>{e(title)}</b><ul>{li}</ul><small>{e(meta)}</small></div></div>')
 
 
+def app_id(p: dict, lang: str) -> str:
+    a = p.get("app")
+    if not a:
+        return ""
+    name, status = a[lang]
+    return (f'<div class="app-id"><img src="{a["icon"]}" alt="{e(name)}" width="64" height="64">'
+            f'<div><b>{e(name)}</b><span class="when">{e(status)}</span></div></div>')
+
+
 def render_blocks(blocks: list) -> str:
     out = ""
     for kind, val in blocks:
@@ -238,6 +282,13 @@ def render_blocks(blocks: list) -> str:
             out += f"<p>{e(val)}</p>"
         elif kind == "steps":
             out += '<ol class="steps post-steps">' + "".join(f"<li><h3>{e(a)}</h3><p>{e(b)}</p></li>" for a, b in val) + "</ol>"
+        elif kind == "featurelist":
+            out += '<div class="flist">' + "".join(
+                f'<section>{glyph(g)}<div><h3>{e(t)}</h3><ul>{"".join(f"<li>{e(i)}</li>" for i in items)}</ul></div></section>'
+                for g, t, items in val) + "</div>"
+        elif kind == "cta":
+            h, ptxt = val
+            out += f'<div class="post-cta"><h2>{e(h)}</h2><p>{e(ptxt)}</p>{social_list()}</div>'
         elif kind == "features":
             out += '<div class="features">' + "".join(
                 f"<div>{glyph(g)}<h3>{e(t)}</h3><p>{e(d)}</p></div>" for g, t, d in val) + "</div>"
@@ -366,8 +417,8 @@ def home(lang: str) -> str:
             games_t="Games", games_p="Cozy casual titles with clean UI and satisfying mechanics. Our first one is almost out.",
             games_li=["Blumixy Puzzle, a merge-and-match for iOS and Android", "Devlogs and playtests in the open"],
             how_h="How a project runs", how_p="Short cycles with a measurable result at the end of each one.",
-            spot_when="Out now on Android", spot_h="Retsepty",
-            spot_p="Our recipe book that fills itself. Send a video link or a photo of a cookbook page and get a recipe with ingredients, steps and nutrition.",
+            spot_when="Coming soon to Android", spot_h="Retsepty",
+            spot_p="Recipes from TikTok, Instagram and photos in one book. The shopping list writes itself.",
             contact_h="Have a project in mind?",
             contact_p="Tell us what you want to automate or build.",
             board_label="Animated blumixy tiles merging into the logo",
@@ -382,8 +433,8 @@ def home(lang: str) -> str:
             games_t="Ігри", games_p="Затишні казуальні ігри з чистим інтерфейсом і приємними механіками. Перша майже готова.",
             games_li=["Blumixy Puzzle — merge-and-match для iOS та Android", "Відкриті девлоги та плейтести"],
             how_h="Як іде проєкт", how_p="Короткі цикли з вимірюваним результатом наприкінці кожного.",
-            spot_when="Вже на Android", spot_h="Рецепти",
-            spot_p="Наша книга рецептів, яка наповнюється сама. Надішліть посилання на відео чи фото сторінки книги й отримайте рецепт з інгредієнтами, кроками та КБЖВ.",
+            spot_when="Незабаром на Android", spot_h="Рецепти",
+            spot_p="Рецепти з TikTok, Instagram і фото в одній книзі. Список покупок складеться сам.",
             contact_h="Маєте задачу?",
             contact_p="Розкажіть, що хочете автоматизувати чи створити.",
             board_label="Анімація: плитки blumixy зливаються в логотип",
@@ -456,7 +507,7 @@ def home(lang: str) -> str:
   <div class="wrap">
     <div class="spot">
       <div>
-        <span class="when">{e(c["spot_when"])}</span>
+        <div class="app-id"><img src="{post['app']['icon']}" alt="" width="64" height="64"><span class="when">{e(c["spot_when"])}</span></div>
         <h2>{e(c["spot_h"])}</h2>
         <p>{e(c["spot_p"])}</p>
         <div class="actions"><a class="btn on-dark" href="{url(lang, post['slug'])}">{e(t["read_more"])}</a></div>
@@ -587,12 +638,13 @@ def news_post(lang: str, p: dict) -> str:
 <section class="page-head"><div class="wrap{' post-hero' if p.get('hero') else ' prose'}"><div>
   <a class="crumb" href="{url(lang, 'news')}">{e(T[lang]["all_news"])}</a>
   <time class="article-meta" datetime="{p["date"].isoformat()}">{fmt_date(lang, p["date"])}</time>
+  {app_id(p, lang)}
   <h1>{e(c["title"])}</h1>
   <p class="lead">{e(c["lead"])}</p>
 </div>{app_card(lang) if p.get('hero') else ''}</div></section>
 <div class="wrap"><div class="prose post-body">
   {paras}
-  {social_list()}
+  {'' if any(k == 'cta' for k, _ in c.get('blocks', [])) else social_list()}
 </div></div>
 </article>
 """

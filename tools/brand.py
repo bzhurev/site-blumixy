@@ -98,9 +98,10 @@ PIECES = {
 <div style="position:absolute;inset:0;background:#1b1a3a"></div>
 <div style="position:absolute;left:84px;top:92px;color:#fff">
   <div class="row" style="--gap:16px"><div style="width:52px">{MARK_SVG}</div><div class="word" style="--fs:34px;color:#fff">blumixy</div></div>
-  <div style="display:inline-block;margin-top:64px;padding:8px 18px;border-radius:999px;background:#ffc94d;color:#1b1a3a;font:600 24px O">Out now on Android</div>
-  <div class="word" style="--fs:96px;margin-top:26px;color:#fff">Retsepty</div>
-  <div class="tag" style="--ts:30px;margin-top:22px;color:#c9c7ee;max-width:560px">A recipe book that fills itself</div>
+  <div style="display:flex;align-items:center;gap:22px;margin-top:56px"><img src="apps/retsepty-icon-512.png" style="width:104px;height:104px;border-radius:26px">
+  <div style="display:inline-block;padding:8px 18px;border-radius:999px;background:#ffc94d;color:#1b1a3a;font:600 24px O">Coming soon to Android</div></div>
+  <div class="word" style="--fs:96px;margin-top:22px;color:#fff">Retsepty</div>
+  <div class="tag" style="--ts:30px;margin-top:22px;color:#c9c7ee;max-width:560px">Your recipe book that fills itself</div>
 </div>
 <div style="position:absolute;right:84px;top:118px;width:390px;background:#fff;border-radius:30px;padding:34px 34px 28px;color:#1b1a3a">
   <i style="position:absolute;right:28px;top:28px;width:38px;height:38px;border-radius:11px;background:#ffc94d"></i>
